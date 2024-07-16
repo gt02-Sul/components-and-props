@@ -1,5 +1,6 @@
-import DataPost from "./DataPost";
-import Header from "./Header";
+import DataPost from './DataPost.jsx';
+import Footer from './Footer.jsx';
+import Header from './Header.jsx';
 
 export default function Home() {
 
@@ -7,6 +8,7 @@ export default function Home() {
         <>
             <Header />
             <DataPost />
+            <Footer />
         </>
     );
 }
